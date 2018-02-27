@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <title>Drop Yard</title>
+</head>
+<body>
+    <!-- header showcase-->
+    
+    <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div class="content-wrap">
+        <h1>Drop Yard</h1>
+        <p>Drop Yard is a premium service for Drivers and Owner-Operators to track inportant information for day to day operations.  Never forget important information again by storing contact data and notes on Shippers, Receivers even other Drivers. Best of all it is free.</p>
+        <a href="#section-b" class="btn">Read More</a><a href="#section-c" class="btn">Enter Drop Yard</a><a href="#" class="btn">Sign Up</a>
+        </div>
+    </header>
+<!-- main section -->
+    <main id="main">
+
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Why Drop Yard</h2>
+                <div class="content-text">
+                <p>How many times have you needed to call a shipper or receiver for infomation and directions realizing you were just there some time ago. As drivers we go so many places and see so many people it is hard to keep track of it all.  Now there is Drop Yard.  A place to drop not just contact information for shippers, receivers, brokers or even other drivers, but also detailed notes.  Maybe you need to remember the shipping managers name because he could be a future customer.  That brokered load you just hauled was esspecially eventful and that broker has just the kind of freight on the lanes you like to run.  Perhaps that receiver you are going to in the morning needs you there at 5 a.m. you check your Drop Yard notes on the receiver and yes they allow onsite parking and that gets you an extra hour of sleep.  For these reasons and many others Drop Yard has been created by a Driver for Drivers.
+                </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seciton B -->
+        <section id="section-b" class="grid">
+        <ul>
+            <li>
+                <div class="card">
+                    <img src="https://static.pexels.com/photos/93398/pexels-photo-93398.jpeg" alt="macbook pro">
+                    <div class="card-content">
+                        <h3 class="card-title">Contact Management</h3>
+                        <p>Keep all your contacts in one easy to find place.  Sort and search by category or name.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <img src="http://ww1.prweb.com/prfiles/2014/04/18/11778127/trucksandmoretrucks.jpg" alt="mobile">
+                    <div class="card-content">
+                        <h3 class="card-title">Safety & Time Saving</h3>
+                        <p>Saving time by having notes and information on hand means no dangerous phone calls that may distract you from the road.</p>
+                    </div>
+                </div>
+            </li>           
+            <li>
+                <div class="card">
+                    <img src="https://static.pexels.com/photos/192364/pexels-photo-192364.jpeg" alt="macbook pro">
+                    <div class="card-content">
+                        <h3 class="card-title">Map It Out</h3>
+                        <p>Find your destination easily and quickly with integrated google maps.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--section C -->
+    <section id="section-c" class="grid">
+        <div class="content-wrap">Enter Drop Yard</h2>
+        
+        <% yield %>
+
+    </section>
+    <!--ssection d -->
+    <section id="section-d" class="grid">
+        <div class="box">
+            <h2 class="content-title">Contact Us</h2>
+            <p>Like most of you we are drivers too.  If you need us or just have questions and comments please drop us a line.</p>
+            <p>
+                info@DropYard.io
+            </p>
+        </div>
+        <div class="box">
+            <h2 class="content-title">My Story</h2>
+            <p>In 1992 after returning from the Army I got my CDL.  Pulled a  dry box for a short while then moved on to Flatbeds and Step Decks.  The last few years it has been all Heavy Haul and Oversized loads.  In the late 1990's I did take a break from driving to attend Colorado State University.  These days life on the road is more complicated and stressful than ever before and that is why I came up with Drop Yard.  I want it to be free, informative and private.   </p>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer id="main-footer" class="grid">
+        <div><h3>Jesse Hatton</h3>&nbsp; <span>&copy; 2018 All right reserved.</span></div>
+        <div>Created by <a href="http://www.jessehatton.com" target="_blank">Jesse Hatton</a><p> Hatton Specialized Transportation</p></div>
+    </footer>
+
+    
+</body>
+</html>
+
+
+
+
